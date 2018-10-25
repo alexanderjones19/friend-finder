@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Friend Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Dog Friend Survey</h2>
+        <hr>
+        <h3>Dog Info</h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Optional)</h4>
+        <input type="text" id="photo" class="form-control">
+        <hr>
+
+        <form>
+            <div class="form-group">
+                <label for="question-one"><strong>Question 1</strong></label>
+                <p>I am a large dog</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-two"><strong>Question 2</strong></label>
+                <p>I am very energetic</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-three"><strong>Question 3</strong></label>
+                <p>I can sometimes be aggressive when I play</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-four"><strong>Question 4</strong></label>
+                <p>I am up to date on my vaccines</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-five"><strong>Question 5</strong></label>
+                <p>I like to go for walks</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-six"><strong>Question 6</strong></label>
+                <p>I like to play tug</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-seven"><strong>Question 7</strong></label>
+                <p>I get along with cats</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-eight"><strong>Question 8</strong></label>
+                <p>I am good with small children</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-nine"><strong>Question 9</strong></label>
+                <p>I like to go to the dog park</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="question-ten"><strong>Question 10</strong></label>
+                <p>I like to share my toys</p>
+                <select class="form-control question-select">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit-button">Submit</button>
+        </form>
+        <br>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a><p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="survey.js"></script>
+</body>
+</html>
