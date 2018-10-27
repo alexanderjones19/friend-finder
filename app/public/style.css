@@ -1,3 +1,74 @@
-#friend-finder-title {
-    color: blue;
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(./images/02.png);
+    background-color: #451e3b;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+}
+
+select {
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.page-title-text {
+    font-family: 'Mali', cursive;
+}
+
+.page-body-text {
+    font-family: 'Lato', sans-serif;
+}
+
+.survey-text {
+    color: whitesmoke;
+}
+
+.question-labels {
+    font-size: 20px;
+}
+
+.page-titles {
+    font-size: 42px;
+}
+
+.user-input-header {
+    margin-top: 30px;
+}
+
+.question-text {
+    font-size: 20px;
+}
+
+#survey-header {
+    margin-top: 30px;
+}
+
+#dog-info {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+#submit-button {
+    margin-top: 40px;
+}
+
+#photo {
+    margin-bottom: 20px;
+}
+
+#friend-modal-title {
+    font-family: 'Mali', cursive;
+}
+
+#friend-modal-body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
